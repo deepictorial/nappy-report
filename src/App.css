@@ -2,37 +2,71 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App-body {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  color: gray;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel {
+  position: unset !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-control-prev {
+  top: 60% !important;
+}
+
+.carousel-control-next {
+  top: 60% !important;
+}
+
+.bin-card {
+    border-radius: 20% 20% 0 0 !important;
+    height: 65vh !important;
+    margin: 25px !important;
+}
+
+.bin-card-header {
+    padding: 1.75rem 1.25rem !important;
+}
+
+.bin-card-body {
+    padding: 0.75rem !important;
+}
+
+.progress {
+    width: 100%;
+    height: 18rem !important;
+    background-color: darkgreen !important;
+    transform: rotate(90deg) scaleX(-1) !important;
+}
+
+.bin-card-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.25rem !important;
+  color: azure;
+  opacity: 0.7;
+}
+
+.log-table {
+  margin: 20px;
+}
+
+.activity-list {
+  margin-top: 30px;
+}
+
+.fc-button-group {
+  margin-left: 0px;
+}
+
+.table {
+  height: 100vh !important;
+}
+
+.table-header {
+  background-color: darkgray;
 }
